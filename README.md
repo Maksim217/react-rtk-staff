@@ -1,6 +1,6 @@
 # Выполненное тестовое задание на позицию Frontend-разработчик (React)
 
-[Ссылка на результат](https://react-rtk-github.web.app)
+[Ссылка на результат](https://react-rtk-staff.firebaseapp.com)
 
 ### Установка пакетов
 
