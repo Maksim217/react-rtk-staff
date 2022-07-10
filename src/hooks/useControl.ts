@@ -1,5 +1,4 @@
 import React from 'react';
-import { IUseControl } from './contracts/IUseControl';
 import { SelectChangeEvent } from '@mui/material/Select';
 
 export const useControl = (type: string, initialState: any) => {
