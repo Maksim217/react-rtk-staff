@@ -66,7 +66,7 @@ const UpdateForm: React.FC = (): React.ReactElement => {
   ) => {
     control.handleChange(event);
     if(employee) {
-      dispatch(updateEmployee(employee.id, name, event.target.value));
+      dispatch(updateEmployee(employee.id, name, event.target.checked));
     }
   }
 
