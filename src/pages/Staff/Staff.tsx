@@ -8,8 +8,8 @@ const Staff: React.FC = (): React.ReactElement => {
   const classes = useStyles();
   const [open, setOpen] = React.useState<boolean>(false);
 
-  const handleClickOpen = () => setOpen(true);
-  const handleClickClose = () => setOpen(false);
+  const handleClickOpen = React.useCallback(() => setOpen(true), []);
+  const handleClickClose = React.useCallback(() => setOpen(false), []);
 
   return (
     <>
